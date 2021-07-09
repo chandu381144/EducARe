@@ -1,0 +1,504 @@
+body{
+   
+    background: url("back.gif");
+}
+
+.mapdiv{
+    width:50%;
+    margin: auto;
+    box-shadow: 0px 0px 5px 10px white;
+    background: rgba(0,0,0,0.5);
+}
+.mapdiv1{
+    width:60%;
+    margin: auto;
+    box-shadow: 0px 0px 5px 10px white;
+    background: rgba(0,0,0,0.5);
+}
+
+.mapdiv path {
+    fill: #cc1100;
+    stroke: #dece0c;
+    stroke-width:4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:#000;
+}
+
+.popup-hyderabad{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+.popup-karimnagar{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+.popup-adilabad{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.popup-nizamabad{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.popup-medak{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.popup-rangareddy{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.popup-mahbubnagar{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+.popup-nalgonda{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+.popup-warangal{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+.popup-khammam{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+
+/*---------------------------------------------*/
+
+
+
+
+.popup1-hyderabad{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.popup1-warangal{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+/*--------------------------------------------------*/
+
+.popup-content-adilabad{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+
+.popup-content-nizamabad{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-medak{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-rangareddy{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-hyderabad{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-mahbubnagar{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-nalgonda{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-khammam{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-warangal{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-content-karimnagar{
+	
+	height: 600px;
+	width: 900px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------*/
+.popup-contentinner-hyderabad{
+	height: 600px;
+	width: 800px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-contentinner-hyderabad-quiz{
+	height: 600px;
+	width: 1000px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+.popup-contentinner-warangal{
+	height: 400px;
+	width: 600px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	margin: 10px 10px;
+}
+
+
+/*---------------------------------------------*/
+
+
+.close-hyderabad{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-adilabad{
+
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-karimnagar{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-medak{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-mahbubnagar{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-warangal{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-rangareddy{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-nizamabad{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-nalgonda{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+.close-khammam{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+
+.close1-hyderabad{
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: #fff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 29px -4px rgba(0,0,0,0.75);
+	cursor: pointer;
+}
+a:hover{
+ background: black;
+}
+
+.threeDimg{
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+	margin-left: 10px; 
+}
+.Arbutton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.Arbutton:hover{
+	background-color: pink;
+}
+
+tr{
+	align-items: center;
+	text-align: center;
+}
+.div1{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+
+	margin-left: 60px; 
+    color: blue;
+    border: 2px solid black;
+
+}
+.popup_header{
+	background: rgba(0,0,0,0);
+	font-family: cursive;
+}
+.audio{
+	display: none;
+}
+
+button{
+	border-radius: 20px;
+}
